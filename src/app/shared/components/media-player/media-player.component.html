@@ -18,10 +18,10 @@
 <ng-template #artistZone>
     <div class="artist-inside" >
 
-        <img [src]="'https://ps.w.org/image-comparison/assets/icon-256x256.png?rev=2587037'" alt="" class="cover">
+        <img [src]='mockCover.url' alt="" class="cover">
         <div class="track-info">
-            <h3 class="track-title">nombre</h3>
-            <h5 class="track-title sub-title">nombre album</h5>
+            <h3 class="track-title">{{mockCover.name}}</h3>
+            <h5 class="track-title sub-title">{{mockCover.album}}</h5>
         </div>
         <div class="track-like">
             <button class="btn-like">
