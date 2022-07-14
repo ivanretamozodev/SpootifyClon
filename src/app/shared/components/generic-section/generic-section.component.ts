@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { TrackInterface } from '@core/interfaces/tracks.interface';
 
 @Component({
   selector: 'app-generic-section',
@@ -9,7 +10,7 @@ export class GenericSectionComponent implements OnInit {
 
   @Input() title: string = ""
   @Input() mode: "small" | "big" = "big"
-  @Input() dataTracks: Array<any> = []
+  @Input() dataTracks: Array<TrackInterface> = []
 
   constructor() { }
 

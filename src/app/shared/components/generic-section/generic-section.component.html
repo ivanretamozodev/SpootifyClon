@@ -4,7 +4,7 @@
     <div class="section--generic__player--zone">
         <ul class="player--list" [ngClass]="{'card-small':mode === 'small','card-big':mode === 'big'}">
             <li *ngFor="let track of dataTracks">
-                {{track}}
+                <app-card-player [mode]="mode" [track]="track"></app-card-player>
             </li>
         </ul>
     </div>

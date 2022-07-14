@@ -13,7 +13,7 @@ export class MediaPlayerComponent implements OnInit {
     name: "the wall",
     album: "the wall",
     cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_Wall_Cover.svg/800px-The_Wall_Cover.svg.png",
-    url:   "https//localhost:"
+    url:   ""
 
   }
 

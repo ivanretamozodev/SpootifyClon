@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { TrackInterface } from '../../../core/interfaces/tracks.interface';
 
 @Component({
   selector: 'app-card-player',
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-player.component.css']
 })
 export class CardPlayerComponent implements OnInit {
-
+  @Input() mode: 'small' | 'big' = 'small'
+  @Input() track! : TrackInterface
   constructor() { }
 
   ngOnInit(): void {

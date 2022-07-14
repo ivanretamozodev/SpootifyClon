@@ -1,6 +1,6 @@
 
 export interface TrackInterface {
-    _id:      number;
+    _id:      number| string;
     name:     string;
     album:    string;
     cover:    string;
