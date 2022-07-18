@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import * as dataRaw from "../../../../data/tracks.json";
 import { TrackInterface } from '../../../../core/interfaces/tracks.interface';
+import * as dataRaw from "../../../../data/tracks.json";
 
 @Component({
   selector: 'app-tracks-page',
@@ -10,12 +10,13 @@ import { TrackInterface } from '../../../../core/interfaces/tracks.interface';
 export class TracksPageComponent implements OnInit {
 
   mockTrackList : Array<TrackInterface> =[
+   
   ]
 
   constructor() { }
 
   ngOnInit(): void {
-    const data : any = (dataRaw as any).default
+    const {data} : any = (dataRaw as any).default
     this.mockTrackList = data
   }
 

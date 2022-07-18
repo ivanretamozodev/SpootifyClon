@@ -45,7 +45,7 @@
 .card-player .buttons-player .play-btn {
     color: var(--color-4);
     border: 0;
-    font-size: 1.15rem;
+    font-size: 1.12rem;
     border-radius: 2rem;
     background-color: var(--color-1);
     width: 45px;
@@ -55,6 +55,7 @@
 .card-player.player-big {
     position: relative;
     flex-direction: column;
+ 
     height: 18rem;
     padding: 1rem;
 }
