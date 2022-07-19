@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { CardPlayerComponent } from './components/card-player/card-player.component';
 import { MediaPlayerComponent } from './components/media-player/media-player.component';
@@ -24,7 +25,8 @@ import { PlayListBodyComponent } from './components/play-list-body/play-list-bod
   
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     CardPlayerComponent,
