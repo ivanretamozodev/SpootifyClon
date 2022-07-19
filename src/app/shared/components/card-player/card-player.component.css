@@ -21,7 +21,7 @@
 }
 
 .card-player .content-player {
-    font-weight: 500;
+    font-weight: 300;
     display: flex;
     align-items: center;
     align-content: center;
@@ -55,7 +55,6 @@
 .card-player.player-big {
     position: relative;
     flex-direction: column;
- 
     height: 18rem;
     padding: 1rem;
 }
@@ -82,4 +81,7 @@
     position: absolute;
     right: 0;
     top: 13rem
+}
+.content-player{
+    font-size: 14px;
 }

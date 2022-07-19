@@ -6,6 +6,8 @@ import { MediaPlayerComponent } from './components/media-player/media-player.com
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { GenericSectionComponent } from './components/generic-section/generic-section.component';
 import { UserHeaderComponent } from './components/user-header/user-header.component';
+import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
+import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 
 
 
@@ -17,6 +19,8 @@ import { UserHeaderComponent } from './components/user-header/user-header.compon
     MediaPlayerComponent,
     SideBarComponent,
     UserHeaderComponent,
+    PlayListHeaderComponent,
+    PlayListBodyComponent,
   
   ],
   imports: [
@@ -28,6 +32,8 @@ import { UserHeaderComponent } from './components/user-header/user-header.compon
     MediaPlayerComponent,
     SideBarComponent,
     UserHeaderComponent,
+    PlayListBodyComponent,
+    PlayListHeaderComponent
   ]
 })
 export class SharedModule { }

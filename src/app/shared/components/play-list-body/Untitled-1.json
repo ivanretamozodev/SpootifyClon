@@ -1,0 +1,354 @@
+{
+	"knownSymbols": {
+		"getTestBed": [
+			{
+				"name": "getTestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"enableProdMode": [
+			{
+				"name": "enableProdMode",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"platformBrowserDynamic": [
+			{
+				"name": "platformBrowserDynamic",
+				"module": "@angular/platform-browser-dynamic",
+				"isDefault": false
+			}
+		],
+		"environment": [
+			{
+				"name": "environment",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\environments\\environment.prod.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"SharedModule": [
+			{
+				"name": "SharedModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\shared.module.ts",
+				"type": "class",
+				"isDefault": false
+			},
+			{
+				"name": "SharedModule",
+				"module": "@shared/shared.module",
+				"isDefault": false
+			}
+		],
+		"NgModule": [
+			{
+				"name": "NgModule",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"CommonModule": [
+			{
+				"name": "CommonModule",
+				"module": "@angular/common",
+				"isDefault": false
+			}
+		],
+		"UserHeaderComponent": [
+			{
+				"name": "UserHeaderComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\user-header\\user-header.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Component": [
+			{
+				"name": "Component",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"OnInit": [
+			{
+				"name": "OnInit",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"ComponentFixture": [
+			{
+				"name": "ComponentFixture",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"TestBed": [
+			{
+				"name": "TestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"SideBarComponent": [
+			{
+				"name": "SideBarComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\side-bar\\side-bar.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"MediaPlayerComponent": [
+			{
+				"name": "MediaPlayerComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\media-player\\media-player.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TrackInterface": [
+			{
+				"name": "TrackInterface",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\core\\interfaces\\tracks.interface.ts",
+				"type": "interface",
+				"isDefault": false
+			},
+			{
+				"name": "TrackInterface",
+				"module": "@core/interfaces/tracks.interface",
+				"isDefault": false
+			}
+		],
+		"GenericSectionComponent": [
+			{
+				"name": "GenericSectionComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\generic-section\\generic-section.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Input": [
+			{
+				"name": "Input",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"CardPlayerComponent": [
+			{
+				"name": "CardPlayerComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\card-player\\card-player.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TracksModule": [
+			{
+				"name": "TracksModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\tracks\\tracks.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TracksRoutingModule": [
+			{
+				"name": "TracksRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\tracks\\tracks-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"RouterModule": [
+			{
+				"name": "RouterModule",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"Routes": [
+			{
+				"name": "Routes",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"HomePageComponent": [
+			{
+				"name": "HomePageComponent",
+				"module": "@modules/home/pages/home-page/home-page.component",
+				"isDefault": false
+			},
+			{
+				"name": "HomePageComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\home\\pages\\home-page\\home-page.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HomeRoutingModule": [
+			{
+				"name": "HomeRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\home\\home-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HistoryPageComponent": [
+			{
+				"name": "HistoryPageComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\history\\pages\\history-page\\history-page.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HistoryModule": [
+			{
+				"name": "HistoryModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\history\\history.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HistoryRoutingModule": [
+			{
+				"name": "HistoryRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\history\\history-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AuthPageComponent": [
+			{
+				"name": "AuthPageComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\auth\\pages\\auth-page\\auth-page.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AuthModule": [
+			{
+				"name": "AuthModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\auth\\auth.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AuthRoutingModule": [
+			{
+				"name": "AuthRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\auth\\auth-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ArtistModel": [
+			{
+				"name": "ArtistModel",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\core\\interfaces\\artist.interface.ts",
+				"type": "interface",
+				"isDefault": false
+			},
+			{
+				"name": "ArtistModel",
+				"module": "@core/interfaces/artist.interface",
+				"isDefault": false
+			}
+		],
+		"BrowserModule": [
+			{
+				"name": "BrowserModule",
+				"module": "@angular/platform-browser",
+				"isDefault": false
+			}
+		],
+		"AppComponent": [
+			{
+				"name": "AppComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\app.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"RouterTestingModule": [
+			{
+				"name": "RouterTestingModule",
+				"module": "@angular/router/testing",
+				"isDefault": false
+			}
+		],
+		"HomeModule": [
+			{
+				"name": "HomeModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\home\\home.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppRoutingModule": [
+			{
+				"name": "AppRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\app-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FavoritesRoutingModule": [
+			{
+				"name": "FavoritesRoutingModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\favorites\\favorites-routing.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FavoritesPageComponent": [
+			{
+				"name": "FavoritesPageComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\favorites\\pages\\favorites-page\\favorites-page.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppModule": [
+			{
+				"name": "AppModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\app.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"FavoritesModule": [
+			{
+				"name": "FavoritesModule",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\favorites\\favorites.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"PlayListHeaderComponent": [
+			{
+				"name": "PlayListHeaderComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\play-list-header\\play-list-header.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"PlayListBodyComponent": [
+			{
+				"name": "PlayListBodyComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\shared\\components\\play-list-body\\play-list-body.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TracksPageComponent": [
+			{
+				"name": "TracksPageComponent",
+				"path": "c:\\Users\\retam\\Desktop\\Proyectos Angular\\spootify\\src\\app\\modules\\tracks\\pages\\tracks-page\\tracks-page.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		]
+	}
+}
