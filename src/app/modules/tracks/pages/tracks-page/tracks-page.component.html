@@ -1,9 +1,16 @@
-
 <div class="tracks-page">
     <!--section top (small)-->
-    <app-generic-section [dataTracks]="mockTrackList" [mode]="'small'" [title]="'¡La mejor música del mundo!'">
+    <app-generic-section
+        [dataTracks]="TrendingTracks"
+        [mode]="'small'"
+        [title]="'¡La mejor música del mundo!'"
+    >
     </app-generic-section>
     <!--section medium (big)-->
-    <app-generic-section [dataTracks]="mockTrackList" [mode]="'big'" [title]="'Lo mejor de Electronica'">
+    <app-generic-section
+        [dataTracks]="RandomTracks"
+        [mode]="'big'"
+        [title]="'Lo mejor de Electronica'"
+    >
     </app-generic-section>
 </div>
