@@ -1,7 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { TrackInterface } from '../../../../core/interfaces/tracks.interface';
-import * as dataRaw from '../../../../data/tracks.json';
 import { TracksService } from '../../services/tracks.service';
 
 @Component({
@@ -17,12 +16,17 @@ export class TracksPageComponent implements OnInit, OnDestroy {
     constructor(private _tracksService: TracksService) {}
 
     ngOnInit(): void {
-        const observerTrending$ = this._tracksService.dataTracksTrending.subscribe(
-            (tracks) => (this.TrendingTracks = tracks)
-        );
-        this.listObservers$ = [observerTrending$];
+        const trendingObservable$: Subscription = this._tracksService
+            .getAllTracks$()
+            .subscribe((response: TrackInterface[]) => (this.TrendingTracks = response));
+
+        const randomObservable$: Subscription = this._tracksService
+            .getRandomTracks$()
+            .subscribe((response: TrackInterface[]) => (this.RandomTracks = response));
+
+        this.listObservers$ = [randomObservable$, trendingObservable$];
     }
     ngOnDestroy(): void {
-        this.listObservers$.forEach((observer) => observer.unsubscribe());
+        this.listObservers$.forEach((observable) => observable.unsubscribe());
     }
 }
