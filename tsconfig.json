@@ -20,6 +20,9 @@
     "target": "es2020",
     "module": "es2020",
     "paths": {
+      "@environments/*":[
+        "src/environments/*"
+      ],
       "@core/*":[
         "src/app/core/*"
       ],
