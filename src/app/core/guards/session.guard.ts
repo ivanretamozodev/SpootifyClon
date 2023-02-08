@@ -17,7 +17,7 @@ export class SessionGuard implements CanActivate {
     canActivate(
         route: ActivatedRouteSnapshot,
         state: RouterStateSnapshot
-    ): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    ): Observable<boolean> | boolean {
         return this.checkCookieSession();
     }
 
