@@ -29,6 +29,7 @@ body {
 input,
 button {
     font-family: var(--font-family);
+    cursor: pointer;
 }
 
 button:disabled {

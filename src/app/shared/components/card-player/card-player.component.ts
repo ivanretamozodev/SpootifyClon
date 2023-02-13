@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { MediaService } from '@shared/services/media.service';
-import { TrackInterface } from '../../../core/interfaces/tracks.interface';
+import { TrackInterface } from '@core/interfaces/tracks.interface';
 
 @Component({
     selector: 'app-card-player',
@@ -15,6 +15,6 @@ export class CardPlayerComponent implements OnInit {
     ngOnInit(): void {}
 
     sendTrackToMediaPlayer(track: TrackInterface) {
-        this._mediaService.callbackMedia.emit(track);
+        this._mediaService.trackInfo$.next(track);
     }
 }

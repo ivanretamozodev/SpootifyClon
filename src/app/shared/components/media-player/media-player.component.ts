@@ -9,24 +9,21 @@ import { Subscription } from 'rxjs';
     styleUrls: ['./media-player.component.css']
 })
 export class MediaPlayerComponent implements OnInit, OnDestroy {
-    mockCover: TrackInterface = {
-        _id: 13,
-        name: 'the wall',
-        album: 'the wall',
-        cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_Wall_Cover.svg/800px-The_Wall_Cover.svg.png',
-        url: ''
-    };
-
     listOfObservers$: Array<Subscription> = [];
+    state: string = 'paused';
+    percentage: number = 0;
 
-    constructor(private _mediaService: MediaService) {}
+    constructor(public _mediaService: MediaService) {}
 
     ngOnInit(): void {
-        const observer1$: Subscription = this._mediaService.callbackMedia.subscribe(
-            (track: TrackInterface) => (this.mockCover = track)
+        const observer1$: Subscription = this._mediaService.playerStatus$.subscribe(
+            (status) => (this.state = status)
+        );
+        const observer2$: Subscription = this._mediaService.playerPercentage$.subscribe(
+            (percentage) => (this.percentage = percentage)
         );
 
-        this.listOfObservers$ = [observer1$];
+        this.listOfObservers$ = [observer1$, observer2$];
     }
 
     ngOnDestroy(): void {
